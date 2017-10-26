@@ -1,0 +1,2082 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dbc0e4f312a16cbd81d939f91ddbda0e",
+    "packages": [
+        {
+            "name": "nova-service/generic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/generic.git",
+                "reference": "6e76bd6fd195cdf98365f9142f351505ba7e144c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/generic/6e76bd6fd195cdf98365f9142f351505ba7e144c.zip",
+                "reference": "6e76bd6fd195cdf98365f9142f351505ba7e144c",
+                "shasum": ""
+            },
+            "require": {
+                "packaged/thrift": "0.9.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Com\\Youzan\\Nova\\Framework\\Generic\\": "sdk/gen-php/Framework/Generic"
+                },
+                "classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "nova-service/generic",
+            "time": "2017-07-21T17:56:43+00:00"
+        },
+        {
+            "name": "nova-service/nova-demo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nova-demo.git",
+                "reference": "40639e2545f361a6a0ef9bdbc32a3236cbc047e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nova-demo/40639e2545f361a6a0ef9bdbc32a3236cbc047e3.zip",
+                "reference": "40639e2545f361a6a0ef9bdbc32a3236cbc047e3",
+                "shasum": ""
+            },
+            "require": {
+                "packaged/thrift": "0.9.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Com\\Yourcompany\\Demo\\": "sdk/gen-php"
+                },
+                "classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-06-29T06:52:35+00:00"
+        },
+        {
+            "name": "packaged/thrift",
+            "version": "0.9.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/packaged/thrift.git",
+                "reference": "c662baa1e9818f0e458b07813674b7ba71f9ac69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/packaged/thrift/c662baa1e9818f0e458b07813674b7ba71f9ac69.zip",
+                "reference": "c662baa1e9818f0e458b07813674b7ba71f9ac69",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Thrift\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Apache Thrift",
+            "homepage": "http://thrift.apache.org/",
+            "keywords": [
+                "apache",
+                "thrift"
+            ],
+            "time": "2015-01-23T18:16:46+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "2cc4a01788191489dc7459446ba832fa79a216a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/php-fig/container/2cc4a01788191489dc7459446ba832fa79a216a7.zip",
+                "reference": "2cc4a01788191489dc7459446ba832fa79a216a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-06-28T15:35:32+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/php-fig/log/fe0936ee26643249e916849d48e3a51d5f5e278b.zip",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21T11:40:51+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "f62db5b8afec27073a4609b8c84b1f9936652259"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/symfony/console/f62db5b8afec27073a4609b8c84b1f9936652259.zip",
+                "reference": "f62db5b8afec27073a4609b8c84b1f9936652259",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-05-30T06:58:39+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/symfony/polyfill-mbstring/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296.zip",
+                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2017-10-11T12:05:26+00:00"
+        },
+        {
+            "name": "zan-config/zan",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/zan-config.git",
+                "reference": "3ec2612a4acf178e837fbcbe1d6b0b0628ec9e04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/zan-config/3ec2612a4acf178e837fbcbe1d6b0b0628ec9e04.zip",
+                "reference": "3ec2612a4acf178e837fbcbe1d6b0b0628ec9e04",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-08-21T12:12:57+00:00"
+        },
+        {
+            "name": "zanphp/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/cache.git",
+                "reference": "6b23cc8a7e0885d5a8ffc0c14dd164b8cc408f7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/cache/6b23cc8a7e0885d5a8ffc0c14dd164b8cc408f7d.zip",
+                "reference": "6b23cc8a7e0885d5a8ffc0c14dd164b8cc408f7d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-10T02:02:04+00:00"
+        },
+        {
+            "name": "zanphp/config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/config.git",
+                "reference": "4e617b7d91e6012850b54fc2ce2c8b7ad61d97d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/config/4e617b7d91e6012850b54fc2ce2c8b7ad61d97d9.zip",
+                "reference": "4e617b7d91e6012850b54fc2ce2c8b7ad61d97d9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "require-dev": {
+                "zanphp/testing": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Config\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-24T03:20:59+00:00"
+        },
+        {
+            "name": "zanphp/connection-pool",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/connection-pool.git",
+                "reference": "9db8219900111c8896c2f631190883410056a837"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/connection-pool/9db8219900111c8896c2f631190883410056a837.zip",
+                "reference": "9db8219900111c8896c2f631190883410056a837",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/database": "dev-master",
+                "zanphp/dns-client": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "require-dev": {
+                "zanphp/config": "dev-master",
+                "zanphp/spi": "dev-master",
+                "zanphp/testing": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\ConnectionPool\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-20T02:38:17+00:00"
+        },
+        {
+            "name": "zanphp/console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/console.git",
+                "reference": "4c2e8fb0e5d8aa39c12bf66e17e88da20d7a6a99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/console/4c2e8fb0e5d8aa39c12bf66e17e88da20d7a6a99.zip",
+                "reference": "4c2e8fb0e5d8aa39c12bf66e17e88da20d7a6a99",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "symfony/console": "3.1",
+                "zanphp/contracts": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Console\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-07-20T11:31:42+00:00"
+        },
+        {
+            "name": "zanphp/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/container.git",
+                "reference": "d22a5c70090ea9284a8f2b51e6dab4247dc489dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/container/d22a5c70090ea9284a8f2b51e6dab4247dc489dd.zip",
+                "reference": "d22a5c70090ea9284a8f2b51e6dab4247dc489dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "psr/container": "~1.0",
+                "zanphp/contracts": "dev-master"
+            },
+            "require-dev": {
+                "zanphp/testing": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.5-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "ZanPHP\\Container\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Container package.",
+            "homepage": "https://laravel.com",
+            "time": "2017-10-18T02:13:19+00:00"
+        },
+        {
+            "name": "zanphp/contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/contracts.git",
+                "reference": "4dcedd7c79f7284fe95076b0d5dd7bfe2f51f84f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/contracts/4dcedd7c79f7284fe95076b0d5dd7bfe2f51f84f.zip",
+                "reference": "4dcedd7c79f7284fe95076b0d5dd7bfe2f51f84f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "psr/container": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Contracts\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-20T02:38:05+00:00"
+        },
+        {
+            "name": "zanphp/coroutine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/coroutine.git",
+                "reference": "e366ce7ae399829f916800a9a33bc95299521e26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/coroutine/e366ce7ae399829f916800a9a33bc95299521e26.zip",
+                "reference": "e366ce7ae399829f916800a9a33bc95299521e26",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/exception": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "require-dev": {
+                "zanphp/testing": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Coroutine\\": "src"
+                },
+                "files": [
+                    "src/Command/Task.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-17T17:16:31+00:00"
+        },
+        {
+            "name": "zanphp/database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/database.git",
+                "reference": "f0a83f4067f20e2fab407bfe54c2bb985de89471"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/database/f0a83f4067f20e2fab407bfe54c2bb985de89471.zip",
+                "reference": "f0a83f4067f20e2fab407bfe54c2bb985de89471",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/config": "dev-master",
+                "zanphp/connection-pool": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/spi": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/testing": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Database\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-26T07:16:56+00:00"
+        },
+        {
+            "name": "zanphp/debugger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/debugger.git",
+                "reference": "3ecb27dc58eaec17169c0912a7d271cf87e7edf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/debugger/3ecb27dc58eaec17169c0912a7d271cf87e7edf9.zip",
+                "reference": "3ecb27dc58eaec17169c0912a7d271cf87e7edf9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Debugger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-08-09T04:53:55+00:00"
+        },
+        {
+            "name": "zanphp/dns-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/dns-client.git",
+                "reference": "8b5d78e04f8df35584f9603d7b6903ff01e23189"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/dns-client/8b5d78e04f8df35584f9603d7b6903ff01e23189.zip",
+                "reference": "8b5d78e04f8df35584f9603d7b6903ff01e23189",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\DnsClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T02:36:41+00:00"
+        },
+        {
+            "name": "zanphp/etcd-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/etcd-client.git",
+                "reference": "679b2833b14e93c467c264c739ba6d0a24761d4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/etcd-client/679b2833b14e93c467c264c739ba6d0a24761d4f.zip",
+                "reference": "679b2833b14e93c467c264c739ba6d0a24761d4f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/config": "dev-master",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/http-client": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/testing": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\EtcdClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-12T11:50:36+00:00"
+        },
+        {
+            "name": "zanphp/etcd-registry",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/etcd-registry.git",
+                "reference": "8fb0ee805145bd9cca41ae9ccc3f811242c1f990"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/etcd-registry/8fb0ee805145bd9cca41ae9ccc3f811242c1f990.zip",
+                "reference": "8fb0ee805145bd9cca41ae9ccc3f811242c1f990",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/http-client": "dev-master",
+                "zanphp/nova": "dev-master",
+                "zanphp/nova-connection-pool": "dev-master",
+                "zanphp/nova-foundation": "dev-master",
+                "zanphp/service-store": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\EtcdRegistry\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T02:59:15+00:00"
+        },
+        {
+            "name": "zanphp/exception",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/exception.git",
+                "reference": "ac4cc0e9a009f8b670bf2a38a538827822c84d73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/exception/ac4cc0e9a009f8b670bf2a38a538827822c84d73.zip",
+                "reference": "ac4cc0e9a009f8b670bf2a38a538827822c84d73",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "psr/log": "1.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Exception\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T03:19:09+00:00"
+        },
+        {
+            "name": "zanphp/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/framework.git",
+                "reference": "f5fbc4fc489a73f965f3a2e316bfd61f37b819df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/framework/f5fbc4fc489a73f965f3a2e316bfd61f37b819df.zip",
+                "reference": "f5fbc4fc489a73f965f3a2e316bfd61f37b819df",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "psr/log": "1.0.0",
+                "zan-config/zan": "dev-master",
+                "zanphp/cache": "dev-master",
+                "zanphp/config": "dev-master",
+                "zanphp/connection-pool": "dev-master",
+                "zanphp/console": "dev-master",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/database": "dev-master",
+                "zanphp/debugger": "dev-master",
+                "zanphp/dns-client": "dev-master",
+                "zanphp/etcd-client": "dev-master",
+                "zanphp/etcd-registry": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/hawk": "dev-master",
+                "zanphp/http-client": "dev-master",
+                "zanphp/http-foundation": "dev-master",
+                "zanphp/internal-sdk": "dev-master",
+                "zanphp/loadbalance": "dev-master",
+                "zanphp/log": "dev-master",
+                "zanphp/nosql": "dev-master",
+                "zanphp/nova": "dev-master",
+                "zanphp/nova-codec": "dev-master",
+                "zanphp/nova-connection-pool": "dev-master",
+                "zanphp/nova-generic": "dev-master",
+                "zanphp/routing": "dev-master",
+                "zanphp/rpc-context": "dev-master",
+                "zanphp/service-chain": "dev-master",
+                "zanphp/service-store": "dev-master",
+                "zanphp/spi": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/testing": "dev-master",
+                "zanphp/timer": "dev-master",
+                "zanphp/trace": "dev-master",
+                "zanphp/utilities": "dev-master",
+                "zanphp/validation": "dev-master",
+                "zanphp/worker-monitor": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Framework\\": "src/"
+                },
+                "files": [
+                    "src/Foundation/Application.php",
+                    "src/Contract/Foundation/Bootable.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T06:33:14+00:00"
+        },
+        {
+            "name": "zanphp/hawk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/hawk.git",
+                "reference": "1c3acb1afb5b13e39c0744962270e08543d88ff2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/hawk/1c3acb1afb5b13e39c0744962270e08543d88ff2.zip",
+                "reference": "1c3acb1afb5b13e39c0744962270e08543d88ff2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Hawk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T06:39:10+00:00"
+        },
+        {
+            "name": "zanphp/http-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/http-client.git",
+                "reference": "308d9b0812fda81421b9849c70100bc3e6f62006"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/http-client/308d9b0812fda81421b9849c70100bc3e6f62006.zip",
+                "reference": "308d9b0812fda81421b9849c70100bc3e6f62006",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/dns-client": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/rpc-context": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "require-dev": {
+                "zanphp/testing": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\HttpClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-18T03:08:57+00:00"
+        },
+        {
+            "name": "zanphp/http-foundation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/http-foundation.git",
+                "reference": "c7bc53a8adddf706b933e0ab1ff25dbed7b3b951"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/http-foundation/c7bc53a8adddf706b933e0ab1ff25dbed7b3b951.zip",
+                "reference": "c7bc53a8adddf706b933e0ab1ff25dbed7b3b951",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\HttpFoundation\\": "src/"
+                },
+                "files": [
+                    "src/Command/Task.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-21T07:41:45+00:00"
+        },
+        {
+            "name": "zanphp/http-server",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/http-server.git",
+                "reference": "7a40948e5bd7849d81381f70dd92b04e11f2dbfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/http-server/7a40948e5bd7849d81381f70dd92b04e11f2dbfb.zip",
+                "reference": "7a40948e5bd7849d81381f70dd92b04e11f2dbfb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/config": "dev-master",
+                "zanphp/container": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/database": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/framework": "dev-master",
+                "zanphp/http-foundation": "dev-master",
+                "zanphp/http-view": "dev-master",
+                "zanphp/nosql": "dev-master",
+                "zanphp/routing": "dev-master",
+                "zanphp/server-base": "dev-master",
+                "zanphp/service-store": "dev-master",
+                "zanphp/testing": "dev-master",
+                "zanphp/utilities": "dev-master",
+                "zanphp/worker-monitor": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\HttpServer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-20T03:20:50+00:00"
+        },
+        {
+            "name": "zanphp/http-view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/http-view.git",
+                "reference": "ece3b019649f92215fca0688dfd40be554e18347"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/http-view/ece3b019649f92215fca0688dfd40be554e18347.zip",
+                "reference": "ece3b019649f92215fca0688dfd40be554e18347",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\HttpView\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T09:08:57+00:00"
+        },
+        {
+            "name": "zanphp/internal-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/internal-sdk.git",
+                "reference": "ae55028aefc4d5716d7a5933ea45b3bb621679e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/internal-sdk/ae55028aefc4d5716d7a5933ea45b3bb621679e7.zip",
+                "reference": "ae55028aefc4d5716d7a5933ea45b3bb621679e7",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-08-21T12:05:09+00:00"
+        },
+        {
+            "name": "zanphp/loadbalance",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/loadbalance.git",
+                "reference": "7b495d0fc6cff7912036c39f75121ee99bdc89b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/loadbalance/7b495d0fc6cff7912036c39f75121ee99bdc89b7.zip",
+                "reference": "7b495d0fc6cff7912036c39f75121ee99bdc89b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\LoadBalance\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-07-11T03:09:17+00:00"
+        },
+        {
+            "name": "zanphp/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/log.git",
+                "reference": "86096e948eb499fbf3e9fa9e2105b1dd9f3f4a16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/log/86096e948eb499fbf3e9fa9e2105b1dd9f3f4a16.zip",
+                "reference": "86096e948eb499fbf3e9fa9e2105b1dd9f3f4a16",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "psr/log": "1.0.0",
+                "zanphp/connection-pool": "dev-master",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Log\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-13T07:42:58+00:00"
+        },
+        {
+            "name": "zanphp/mq-server",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/mq-server.git",
+                "reference": "9342add52a5942066690bef75f782eba6922cfbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/mq-server/9342add52a5942066690bef75f782eba6922cfbc.zip",
+                "reference": "9342add52a5942066690bef75f782eba6922cfbc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/internal-sdk": "dev-master",
+                "zanphp/server-base": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/tcp-server": "dev-master",
+                "zanphp/worker-monitor": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\MqServer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T09:31:13+00:00"
+        },
+        {
+            "name": "zanphp/nosql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nosql.git",
+                "reference": "d3140066de3753419d2077ca1cf837b70f0144c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nosql/d3140066de3753419d2077ca1cf837b70f0144c4.zip",
+                "reference": "d3140066de3753419d2077ca1cf837b70f0144c4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/config": "dev-master",
+                "zanphp/connection-pool": "dev-master",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/spi": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/testing": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\NoSql\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-13T02:20:40+00:00"
+        },
+        {
+            "name": "zanphp/nova",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nova.git",
+                "reference": "5450f465a2c4db4f0f10e7eef8baad6a694f5c99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nova/5450f465a2c4db4f0f10e7eef8baad6a694f5c99.zip",
+                "reference": "5450f465a2c4db4f0f10e7eef8baad6a694f5c99",
+                "shasum": ""
+            },
+            "require": {
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/nova-foundation": "dev-master",
+                "zanphp/thrift-serialization": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Nova\\": "src",
+                    "ZanPHP\\Nova\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "nova",
+            "time": "2017-09-06T05:12:23+00:00"
+        },
+        {
+            "name": "zanphp/nova-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nova-client.git",
+                "reference": "1c953fb129c09899d0b9f9b61570e1c76a2cdd9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nova-client/1c953fb129c09899d0b9f9b61570e1c76a2cdd9b.zip",
+                "reference": "1c953fb129c09899d0b9f9b61570e1c76a2cdd9b",
+                "shasum": ""
+            },
+            "require": {
+                "packaged/thrift": "0.9.2.1",
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/nova": "dev-master",
+                "zanphp/rpc-context": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\NovaClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-26T04:46:31+00:00"
+        },
+        {
+            "name": "zanphp/nova-codec",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nova-codec.git",
+                "reference": "fee106239585ac513069069346ac40eb322683bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nova-codec/fee106239585ac513069069346ac40eb322683bf.zip",
+                "reference": "fee106239585ac513069069346ac40eb322683bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\NovaCodec\\": "src"
+                },
+                "files": [
+                    "src/polyfill.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-01T06:41:09+00:00"
+        },
+        {
+            "name": "zanphp/nova-connection-pool",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nova-connection-pool.git",
+                "reference": "81ed65ede88028fd7268000cc8110a17eb3595ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nova-connection-pool/81ed65ede88028fd7268000cc8110a17eb3595ef.zip",
+                "reference": "81ed65ede88028fd7268000cc8110a17eb3595ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\NovaConnectionPool\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-20T02:22:54+00:00"
+        },
+        {
+            "name": "zanphp/nova-foundation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nova-foundation.git",
+                "reference": "6550fc769128afec0cd3a2865aed9a0c21f18854"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nova-foundation/6550fc769128afec0cd3a2865aed9a0c21f18854.zip",
+                "reference": "6550fc769128afec0cd3a2865aed9a0c21f18854",
+                "shasum": ""
+            },
+            "require": {
+                "packaged/thrift": "0.9.2.1",
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/nova-client": "dev-master",
+                "zanphp/nova-connection-pool": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\NovaFoundation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-18T09:18:29+00:00"
+        },
+        {
+            "name": "zanphp/nova-generic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/nova-generic.git",
+                "reference": "cad104a00777e279a6e4ad6602d0d148492930f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/nova-generic/cad104a00777e279a6e4ad6602d0d148492930f6.zip",
+                "reference": "cad104a00777e279a6e4ad6602d0d148492930f6",
+                "shasum": ""
+            },
+            "require": {
+                "nova-service/generic": "dev-master",
+                "packaged/thrift": "0.9.2.1",
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/nova-foundation": "dev-master",
+                "zanphp/thrift-serialization": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\NovaGeneric\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-06T09:07:19+00:00"
+        },
+        {
+            "name": "zanphp/routing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/routing.git",
+                "reference": "092cd01bbfc6b434a794434aef57051e3f7350d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/routing/092cd01bbfc6b434a794434aef57051e3f7350d5.zip",
+                "reference": "092cd01bbfc6b434a794434aef57051e3f7350d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/http-foundation": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Routing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-10T08:50:48+00:00"
+        },
+        {
+            "name": "zanphp/rpc-context",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/rpc-context.git",
+                "reference": "022f1408a5e6b38f53847ce2fe725fd99ce36bc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/rpc-context/022f1408a5e6b38f53847ce2fe725fd99ce36bc7.zip",
+                "reference": "022f1408a5e6b38f53847ce2fe725fd99ce36bc7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\RpcContext\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-06T08:55:32+00:00"
+        },
+        {
+            "name": "zanphp/server-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/server-base.git",
+                "reference": "e8ecb3fe95ea14d75f093217781733389fc541a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/server-base/e8ecb3fe95ea14d75f093217781733389fc541a4.zip",
+                "reference": "e8ecb3fe95ea14d75f093217781733389fc541a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/connection-pool": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/database": "dev-master",
+                "zanphp/etcd-registry": "dev-master",
+                "zanphp/framework": "dev-master",
+                "zanphp/hawk": "dev-master",
+                "zanphp/log": "dev-master",
+                "zanphp/nosql": "dev-master",
+                "zanphp/rpc-context": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/timer": "dev-master",
+                "zanphp/trace": "dev-master",
+                "zanphp/worker-monitor": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\ServerBase\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-13T14:31:07+00:00"
+        },
+        {
+            "name": "zanphp/service-chain",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/service-chain.git",
+                "reference": "7471a83f2d278839cadae1b2d909183485ab0c08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/service-chain/7471a83f2d278839cadae1b2d909183485ab0c08.zip",
+                "reference": "7471a83f2d278839cadae1b2d909183485ab0c08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/etcd-client": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\ServiceChain\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-07-27T09:35:02+00:00"
+        },
+        {
+            "name": "zanphp/service-store",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/service-store.git",
+                "reference": "26002576f71f8566c4680754913a2e0991680f10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/service-store/26002576f71f8566c4680754913a2e0991680f10.zip",
+                "reference": "26002576f71f8566c4680754913a2e0991680f10",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\ServiceStore\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-06T02:56:45+00:00"
+        },
+        {
+            "name": "zanphp/spi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/spi.git",
+                "reference": "fec5b879e4a28aeab04ac37244c2bdbe932c85fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/spi/fec5b879e4a28aeab04ac37244c2bdbe932c85fe.zip",
+                "reference": "fec5b879e4a28aeab04ac37244c2bdbe932c85fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\SPI\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-08-23T06:52:21+00:00"
+        },
+        {
+            "name": "zanphp/support",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/support.git",
+                "reference": "7a33e154bcf4c05f59e8cd26b0d8d7ea8fb2a950"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/support/7a33e154bcf4c05f59e8cd26b0d8d7ea8fb2a950.zip",
+                "reference": "7a33e154bcf4c05f59e8cd26b0d8d7ea8fb2a950",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Support\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-17T02:25:11+00:00"
+        },
+        {
+            "name": "zanphp/tcp-server",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/tcp-server.git",
+                "reference": "c5ecb410e7c0c486b1e3a88fcc020e36be91ebcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/tcp-server/c5ecb410e7c0c486b1e3a88fcc020e36be91ebcb.zip",
+                "reference": "c5ecb410e7c0c486b1e3a88fcc020e36be91ebcb",
+                "shasum": ""
+            },
+            "require": {
+                "packaged/thrift": "0.9.2.1",
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/database": "dev-master",
+                "zanphp/etcd-registry": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/log": "dev-master",
+                "zanphp/nova": "dev-master",
+                "zanphp/nova-generic": "dev-master",
+                "zanphp/server-base": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/thrift-serialization": "dev-master",
+                "zanphp/timer": "dev-master",
+                "zanphp/worker-monitor": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\TcpServer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-18T06:35:45+00:00"
+        },
+        {
+            "name": "zanphp/testing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/testing.git",
+                "reference": "8d46dcf19731e0694e926396f2871469230bb3f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/testing/8d46dcf19731e0694e926396f2871469230bb3f7.zip",
+                "reference": "8d46dcf19731e0694e926396f2871469230bb3f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/database": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Testing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-17T02:28:59+00:00"
+        },
+        {
+            "name": "zanphp/thrift-serialization",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/thrift-serialization.git",
+                "reference": "d6dab0cc989f102d005c4010ee1ab29bbca9bc2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/thrift-serialization/d6dab0cc989f102d005c4010ee1ab29bbca9bc2e.zip",
+                "reference": "d6dab0cc989f102d005c4010ee1ab29bbca9bc2e",
+                "shasum": ""
+            },
+            "require": {
+                "packaged/thrift": "0.9.2.1",
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/nova-foundation": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\ThriftSerialization\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-20T08:04:31+00:00"
+        },
+        {
+            "name": "zanphp/timer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/timer.git",
+                "reference": "bd11280d14cd2cc2293d4860d6d36b214c4e4fff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/timer/bd11280d14cd2cc2293d4860d6d36b214c4e4fff.zip",
+                "reference": "bd11280d14cd2cc2293d4860d6d36b214c4e4fff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/exception": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Timer\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-04T08:58:21+00:00"
+        },
+        {
+            "name": "zanphp/trace",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/trace.git",
+                "reference": "1695d6e0f433b2dffb7cff7cb1557b7f33c13a31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/trace/1695d6e0f433b2dffb7cff7cb1557b7f33c13a31.zip",
+                "reference": "1695d6e0f433b2dffb7cff7cb1557b7f33c13a31",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/connection-pool": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Trace\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-11T03:06:46+00:00"
+        },
+        {
+            "name": "zanphp/utilities",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/utilities.git",
+                "reference": "0581b8836f3e6bc3a00d72595ad0d51f1d07742d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/utilities/0581b8836f3e6bc3a00d72595ad0d51f1d07742d.zip",
+                "reference": "0581b8836f3e6bc3a00d72595ad0d51f1d07742d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/http-foundation": "dev-master",
+                "zanphp/internal-sdk": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Utilities\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T12:51:58+00:00"
+        },
+        {
+            "name": "zanphp/validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/validation.git",
+                "reference": "f11f9e5340dfe4dfe27806c7bf17b9f99234f81e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/validation/f11f9e5340dfe4dfe27806c7bf17b9f99234f81e.zip",
+                "reference": "f11f9e5340dfe4dfe27806c7bf17b9f99234f81e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/support": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\Validation\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T11:37:18+00:00"
+        },
+        {
+            "name": "zanphp/worker-monitor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/worker-monitor.git",
+                "reference": "dd8f577af89d100c75f8dd60f815a137f707b916"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/worker-monitor/dd8f577af89d100c75f8dd60f815a137f707b916.zip",
+                "reference": "dd8f577af89d100c75f8dd60f815a137f707b916",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/contracts": "dev-master",
+                "zanphp/hawk": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\WorkerMonitor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-26T03:13:38+00:00"
+        },
+        {
+            "name": "zanphp/ws-server",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zanphp/ws-server.git",
+                "reference": "9cced0895e8daadd5adcc5c0adfa1cae69fde35b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zanphp/ws-server/9cced0895e8daadd5adcc5c0adfa1cae69fde35b.zip",
+                "reference": "9cced0895e8daadd5adcc5c0adfa1cae69fde35b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "zanphp/container": "dev-master",
+                "zanphp/contracts": "dev-master",
+                "zanphp/coroutine": "dev-master",
+                "zanphp/exception": "dev-master",
+                "zanphp/http-server": "dev-master",
+                "zanphp/routing": "dev-master",
+                "zanphp/server-base": "dev-master",
+                "zanphp/support": "dev-master",
+                "zanphp/tcp-server": "dev-master",
+                "zanphp/timer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ZanPHP\\WSServer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-09-05T11:14:33+00:00"
+        },
+        {
+            "name": "zanphp/zan",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/youzan/zanphp.git",
+                "reference": "48cb1180f08368c7690b240949ad951ba0be308c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/youzan/zanphp/48cb1180f08368c7690b240949ad951ba0be308c.zip",
+                "reference": "48cb1180f08368c7690b240949ad951ba0be308c",
+                "shasum": ""
+            },
+            "require": {
+                "zanphp/http-server": "dev-master",
+                "zanphp/mq-server": "dev-master",
+                "zanphp/tcp-server": "dev-master",
+                "zanphp/ws-server": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": [],
+                "classmap": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2017-10-17T06:39:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "zanphp/zan": 20,
+        "nova-service/nova-demo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

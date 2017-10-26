@@ -1,0 +1,25 @@
+{
+  "name": "zanphp/validation",
+  "require": {
+    "php": ">=5.6",
+    "zanphp/contracts": "dev-master",
+    "zanphp/support": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZanPHP\\Validation\\": "src"
+    },
+    "files": [
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "secure-http": false
+  },
+  "minimum-stability": "dev"
+}

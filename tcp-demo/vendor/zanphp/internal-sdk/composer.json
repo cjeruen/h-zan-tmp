@@ -1,0 +1,15 @@
+{
+  "name": "zanphp/internal-sdk",
+  "repositories": {},
+  "require": {
+  },
+  "autoload": {},
+  "autoload-dev": {
+  },
+  "config": {
+    "preferred-install": "dist",
+    "secure-http": false
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

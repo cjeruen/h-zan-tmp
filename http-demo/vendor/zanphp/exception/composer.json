@@ -1,0 +1,22 @@
+{
+  "name": "zanphp/exception",
+  "require": {
+    "php": ">=5.6",
+    "psr/log": "1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZanPHP\\Exception\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "secure-http": false
+  },
+  "minimum-stability": "dev"
+}

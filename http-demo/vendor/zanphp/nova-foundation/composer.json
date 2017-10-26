@@ -1,0 +1,25 @@
+{
+  "name": "zanphp/nova-foundation",
+  "require": {
+    "php": ">=5.6",
+    "packaged/thrift": "0.9.2.1",
+    "zanphp/nova-client": "dev-master",
+    "zanphp/contracts": "dev-master",
+    "zanphp/nova-connection-pool": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZanPHP\\NovaFoundation\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "secure-http": false
+  },
+  "minimum-stability": "dev"
+}

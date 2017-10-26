@@ -1,0 +1,14 @@
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - php -v
+
+trigger:
+  stage: test
+  type: deploy
+  script:
+    - php -v
+    # - "curl -X POST -F token=TOKEN -F ref=REF_NAME http://gitlab.qima-inc.com/api/v3/projects/3037/trigger/builds"

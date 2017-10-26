@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>com.youzan.nova.framework.framework-generic</groupId>
+<artifactId>nova-generic-idl</artifactId>
+<version>1.0.2</version>
+
+<distributionManagement>
+    <repository>
+        <id>releases</id>
+        <name>Nexus Release Repository</name>
+        <url>http://maven.qima-inc.com/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Nexus Snapshot Repository</name>
+        <url>http://maven.qima-inc.com/content/repositories/snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>com.youzan.platform</groupId>
+            <artifactId>nova-tools-maven</artifactId>
+            <version>0.1.1-RELEASE</version>
+            <executions>
+                <execution>
+                    <id>compile</id>
+                    <phase>compile</phase>
+                    <goals>
+                        <goal>install</goal>
+                    </goals>
+                    <configuration>
+                        <groupId>${project.groupId}</groupId>
+                        <artifactId>nova-generic-api</artifactId>
+                        <version>${project.version}</version>
+                    </configuration>
+                </execution>
+                <execution>
+                    <id>deploy</id>
+                    <phase>deploy</phase>
+                    <goals>
+                        <goal>deploy</goal>
+                    </goals>
+                    <configuration>
+                        <groupId>${project.groupId}</groupId>
+                        <artifactId>nova-generic-api</artifactId>
+                        <version>${project.version}</version>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+
+</project>

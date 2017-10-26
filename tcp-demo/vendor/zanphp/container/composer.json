@@ -1,0 +1,46 @@
+{
+    "name": "zanphp/container",
+    "description": "The Illuminate Container package.",
+    "license": "MIT",
+    "homepage": "https://laravel.com",
+    "support": {
+        "issues": "https://github.com/laravel/framework/issues",
+        "source": "https://github.com/laravel/framework"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "zanphp/contracts": "dev-master",
+        "psr/container": "~1.0"
+    },
+    "require-dev": {
+        "zanphp/testing":"dev-master"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "ZanPHP\\Container\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZanPHP\\Container\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.5-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

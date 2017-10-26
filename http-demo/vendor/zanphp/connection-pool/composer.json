@@ -1,0 +1,45 @@
+{
+  "name": "zanphp/connection-pool",
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "http://packagist.qima-inc.com"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "zanphp/container": "dev-master",
+    "zanphp/coroutine": "dev-master",
+    "zanphp/contracts": "dev-master",
+    "zanphp/exception": "dev-master",
+    "zanphp/dns-client": "dev-master",
+    "zanphp/database": "dev-master",
+    "zanphp/timer": "dev-master",
+    "zanphp/support": "dev-master"
+  },
+  "require-dev": {
+    "zanphp/testing":"dev-master",
+    "zanphp/spi": "dev-master",
+    "zanphp/config": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZanPHP\\ConnectionPool\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ZanPHP\\ConnectionPool\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "secure-http": false
+  },
+  "minimum-stability": "dev"
+}
