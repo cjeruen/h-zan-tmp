@@ -1,0 +1,25 @@
+{
+    "name": "zanphp/zantcp",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "require": {
+        "zanphp/zan": "dev-master",
+        "nova-service/nova-demo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Com\\Youzan\\ZanTcpDemo\\": "src",
+            "Com\\Youzan\\ZanTcpDemo\\Init\\": "init"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "prefer-stable": false,
+    "minimum-stability": "dev"
+}
